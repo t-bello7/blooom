@@ -1,0 +1,30 @@
+header{
+    height: 1em;
+}
+
+
+.ham{
+	position:relative;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.bar{
+	width: 100%;
+	height: 1px;
+	background-color: #000;
+	border-radius:0.1em;
+	box-shadow:inset;
+}
+
+.bar::after{
+	content: '';
+	position:absolute;
+	z-index: 1;
+	top: 20%;
+	width: 100%;
+	height: 1px;
+	background: inherit;
+}
