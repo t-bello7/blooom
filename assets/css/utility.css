@@ -1,33 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@300&display=swap');
 
-:root{
-    --clr-primary: #003068;
-    --clr-white: #fff;
-    
-    --ff-saira: 'Saira Semi Condensed', sans-serif;
-    --gap: 1rem;
+:root {
+  --clr-primary: #003068;
+  --clr-white: #fff;
+  --ff-saira: 'Saira Semi Condensed', sans-serif;
+  --gap: 1rem;
 }
 
-.bg-primary{ background-color: var(--clr-primary);}
-.bg-white{ background-color: var(--clr-white);}
+.bg-primary { background-color: var(--clr-primary); }
+.bg-white { background-color: var(--clr-white); }
 
 .flex {
-    display: flex;
-    gap: var(--gap);
-  }
-  
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
+  display: flex;
+  gap: var(--gap);
 }
 
-.not-visible{
-    display: none;
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.not-visible {
+  display: none;
 }
